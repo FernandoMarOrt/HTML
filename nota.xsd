@@ -99,4 +99,57 @@
     </xs:complexType>
 
     <xs:complexType name="tipoVacio"></xs:complexType>
+
+
+
 </xs:schema>
+
+
+
+ <!-- ESTO ES PARA DECIR QUE EN EL ATRIBUTO "tipo" DE DOMICILIO
+   
+   <domicilios>
+            <domicilio tipo="familiar">
+                <nombre>C/ Principal nº1</nombre>
+            </domicilio>
+            <domicilio tipo="habitual">
+                <nombre>C/ Secundaria nº2</nombre>
+            </domicilio>
+        </domicilios>
+   
+    solo se puedan meter por ejemplo otros1, otros2 y otros3
+    <!-- ESTO ES PARA DECIR QUE EN EL ATRIBUTO "tipo" DE DOMICILIO
+   
+   <domicilios>
+            <domicilio tipo="familiar">
+                <nombre>C/ Principal nº1</nombre>
+            </domicilio>
+            <domicilio tipo="habitual">
+                <nombre>C/ Secundaria nº2</nombre>
+            </domicilio>
+        </domicilios>
+   
+    solo se puedan meter por ejemplo otros1, otros2 y otros3
+   
+   
+    -->
+   <xs:simpleType name="tipoVivienda">
+
+      <xs:restriction base="xs:string">
+
+         <xs:enumeration value="otros1"></xs:enumeration>
+         <xs:enumeration value="otros2"></xs:enumeration>
+         <xs:enumeration value="otros3"></xs:enumeration>
+
+      </xs:restriction>
+   
+    -->
+    <xs:simpleType name="tipoVivienda">
+
+    <xs:restriction base="xs:string">
+
+       <xs:enumeration value="otros1"></xs:enumeration>
+       <xs:enumeration value="otros2"></xs:enumeration>
+       <xs:enumeration value="otros3"></xs:enumeration>
+
+    </xs:restriction>
