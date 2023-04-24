@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<facturas xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="facturas.xsd">
+<facturas xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="facturas.xsd">
     <factura>
         <datos_cliente ident="abcd">
             <nombre>Juan</nombre>
@@ -15,11 +16,9 @@
             </resguardo>
 
 
-
             <alquileres>
                 <fecha>2010-12-25</fecha>
                 <peliculas>
-
 
 
                     <pelicula id_pelicula="ABC" valoracion="buena">
@@ -46,10 +45,7 @@
                         </actores>
 
 
-
-                        
                     </pelicula>
-
 
 
                 </peliculas>
